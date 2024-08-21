@@ -42,60 +42,78 @@ function HeroSlider() {
 
   };
   return (
-    <div className="w-[40vw]">
+    <div className="lg:w-[40vw] sm:w-[80vw]">
 
     <Slider {...settings}>
-      <div>
+      <div className="sm:ml-[4vw] sm:h-[40vw] lg:h-[14vw]">
         <div>
-          <h2 className="text-[2.3vw] font-bold leading-[3vw]">
+          <h2 className="lg:text-[2.3vw] sm:text-[5.5vw] font-bold lg:leading-[3vw] sm:leading-[7vw]">
             ARCHITECT <br />
             BUILDER CONSTRUCTION <br />
             SERVICES
           </h2>
         </div>
-        <div className="flex  gap-[1vw] mt-[1.4vw] ">
-          <button className="text-[1vw] w-[10vw] text-[#ffff] bg-[#f07b27] p-[0.4vw] rounded ">
+        <div className="flex  lg:gap-[1vw] sm:gap-[2vw] sm:mt-[7vw] lg:mt-[1.4vw] lg:mb-[10vw] ">
+          <button className="lg:text-[1vw] sm:text-[3vw] sm:w-[30vw] lg:w-[10vw] text-[#ffff] bg-[#f07b27] lg:p-[0.4vw] sm:p-[2vw] lg:rounded ">
             Contact Us
           </button>
-          <button className="text-[1vw] text-[#ffff] w-[10vw] bg-[#000000] p-[0.4vw] rounded ">
+          <button className="lg:text-[1vw] sm:text-[3vw] sm:w-[30vw] text-[#ffff] lg:w-[10vw] bg-[#000000] sm:p-[2vw] lg:p-[0.4vw] lg:rounded ">
             About
           </button>
         </div>
       </div>
-      <div>
+      <div className="sm:ml-[4vw] sm:h-[40vw] lg:h-0">
         <div>
-          <h2 className="text-[2.3vw] font-bold leading-[3vw]">
+          <h2 className="lg:text-[2.3vw] sm:text-[5.5vw] font-bold lg:leading-[3vw] sm:leading-[7vw]">
             ARCHITECT <br />
             BUILDER CONSTRUCTION <br />
             SERVICES
           </h2>
         </div>
-        <div className="flex  gap-[1vw] mt-[1.4vw] ">
-          <button className="text-[1vw] w-[10vw] text-[#ffff] bg-[#f07b27] p-[0.4vw] rounded ">
+        <div className="flex  lg:gap-[1vw] sm:gap-[2vw] sm:mt-[7vw] lg:mt-[1.4vw] ">
+          <button className="lg:text-[1vw] sm:text-[3vw] sm:w-[30vw] lg:w-[10vw] text-[#ffff] bg-[#f07b27] lg:p-[0.4vw] sm:p-[2vw] lg:rounded ">
             Contact Us
           </button>
-          <button className="text-[1vw] text-[#ffff] w-[10vw] bg-[#000000] p-[0.4vw] rounded ">
+          <button className="lg:text-[1vw] sm:text-[3vw] sm:w-[30vw] text-[#ffff] lg:w-[10vw] bg-[#000000] sm:p-[2vw] lg:p-[0.4vw] lg:rounded ">
             About
           </button>
         </div>
       </div>
-      <div>
+      <div className="sm:ml-[4vw] sm:h-[40vw] lg:h-0">
         <div>
-          <h2 className="text-[2.3vw] font-bold leading-[3vw]">
+          <h2 className="lg:text-[2.3vw] sm:text-[5.5vw] font-bold lg:leading-[3vw] sm:leading-[7vw]">
             ARCHITECT <br />
             BUILDER CONSTRUCTION <br />
             SERVICES
           </h2>
         </div>
-        <div className="flex  gap-[1vw] mt-[1.4vw] ">
-          <button className="text-[1vw] w-[10vw] text-[#ffff] bg-[#f07b27] p-[0.4vw] rounded ">
+        <div className="flex  lg:gap-[1vw] sm:gap-[2vw] sm:mt-[7vw] lg:mt-[1.4vw] ">
+          <button className="lg:text-[1vw] sm:text-[3vw] sm:w-[30vw] lg:w-[10vw] text-[#ffff] bg-[#f07b27] lg:p-[0.4vw] sm:p-[2vw] lg:rounded ">
             Contact Us
           </button>
-          <button className="text-[1vw] text-[#ffff] w-[10vw] bg-[#000000] p-[0.4vw] rounded ">
+          <button className="lg:text-[1vw] sm:text-[3vw] sm:w-[30vw] text-[#ffff] lg:w-[10vw] bg-[#000000] sm:p-[2vw] lg:p-[0.4vw] lg:rounded ">
             About
           </button>
         </div>
       </div>
+      <div className="sm:ml-[4vw] sm:h-[40vw] lg:h-0">
+        <div>
+          <h2 className="lg:text-[2.3vw] sm:text-[5.5vw] font-bold lg:leading-[3vw] sm:leading-[7vw]">
+            ARCHITECT <br />
+            BUILDER CONSTRUCTION <br />
+            SERVICES
+          </h2>
+        </div>
+        <div className="flex  lg:gap-[1vw] sm:gap-[2vw] sm:mt-[7vw] lg:mt-[1.4vw] ">
+          <button className="lg:text-[1vw] sm:text-[3vw] sm:w-[30vw] lg:w-[10vw] text-[#ffff] bg-[#f07b27] lg:p-[0.4vw] sm:p-[2vw] lg:rounded ">
+            Contact Us
+          </button>
+          <button className="lg:text-[1vw] sm:text-[3vw] sm:w-[30vw] text-[#ffff] lg:w-[10vw] bg-[#000000] sm:p-[2vw] lg:p-[0.4vw] lg:rounded ">
+            About
+          </button>
+        </div>
+      </div>
+      
     </Slider>
     </div>
   );

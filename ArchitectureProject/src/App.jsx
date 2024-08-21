@@ -6,6 +6,8 @@ import ServiceSliders from './components/ServiceSliders'
 import About from './components/About'
 import AboutImageSection from './components/AboutImageSection'
 import AboutSpace from './components/AboutSpace'
+import Project from './components/Project'
+import ProjectCard from './components/ProjectCard'
 
 function App() {
 
@@ -21,8 +23,9 @@ function App() {
       </Service>
       <AboutSpace>
         <About/>
-        <AboutImageSection></AboutImageSection>
+        <AboutImageSection/>
       </AboutSpace>
+      {/* <ProjectCard></ProjectCard> */}
       
     </>
   )
