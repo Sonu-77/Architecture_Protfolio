@@ -7,3 +7,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.slick-list {
+    margin-left: -3vw;
+    margin-right: -3vw;
+  }
+

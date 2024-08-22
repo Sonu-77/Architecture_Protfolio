@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 
+
 function ServiceSliders() {
     function SampleNextArrow(props) {
         const { className, style, onClick } = props;
@@ -66,11 +67,11 @@ function ServiceSliders() {
     
       };
   return (
-    <div className='lg:w-[70vw] sm:w-[100%] lg:mt-0 sm:mt-[5vw]'>
+    <div className=' lg:w-[70vw] sm:w-[100%] lg:mt-0  sm:mt-[5vw]'>
 
         <Slider {...settings}>
 
-            <div className='lg:w-[18vw] lg:h-[18vw]  flex flex-col lg:pr-[0.5vw] ' >
+            <div className='lg:w-[18vw] lg:h-[18vw]  flex flex-col lg:pr-[0.5vw]' >
                 <img className='lg:h-[3vw] sm:h-[16vw] lg:w-[3vw] sm:w-[16vw] sm:mb-[5vw] lg:mb-[1vw]' src="https://www.free-css.com/assets/files/free-css-templates/preview/page293/fonicy/assets/images/s1.png" alt="" />
                 <h3 className='lg:text-[1.3vw] sm:text-[4vw] font-bold'>Construction Services</h3>
                 <p className='lg:mt-[1vw] sm:mt-[3vw] sm:text-[3.5vw] lg:text-[1vw] tracking-wide'>fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using L</p>

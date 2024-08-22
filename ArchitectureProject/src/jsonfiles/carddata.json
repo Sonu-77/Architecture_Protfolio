@@ -1,0 +1,84 @@
+[ 
+                      
+    {
+      "id": 1,
+      "allclass":"All",
+      "class":"Painting",
+      "title": "Beautiful Landscape",
+      "description": "A breathtaking view of the mountains during sunset.",
+      "image": "https://via.placeholder.com/300x200?text=Landscape+1"
+    },
+    {
+      "id": 2,
+      "allclass":"All",
+      "class":"Painting",
+      "title": "City Skyline",
+      "description": "A stunning skyline of the city at night with all the lights on.",
+      "image": "https://via.placeholder.com/300x200?text=City+Skyline"
+    },
+    {
+      "id": 3,
+      "allclass":"All",
+      "class":"Repairs",
+      "title": "Forest Path",
+      "description": "A serene path through a dense forest with tall trees.",
+      "image": "https://via.placeholder.com/300x200?text=Forest+Path"
+    },
+    {
+      "id": 4,
+      "allclass":"All",
+      "class":"Repairs",
+      "title": "Sunny Beach",
+      "description": "A sunny day at the beach with clear blue waters.",
+      "image": "https://via.placeholder.com/300x200?text=Sunny+Beach"
+    },
+    {
+      "id": 5,
+      "allclass":"All",
+      "class":"Reconstruction",
+      "title": "Mountain Peak",
+      "description": "A majestic mountain peak covered in snow.",
+      "image": "https://via.placeholder.com/300x200?text=Mountain+Peak"
+    },
+    {
+      "id": 6,
+      "allclass":"All",
+      "class":"Reconstruction",
+      "title": "Desert Dunes",
+      "description": "Endless sand dunes in the middle of the desert.",
+      "image": "https://via.placeholder.com/300x200?text=Desert+Dunes"
+    },
+    {
+      "id": 7,
+      "allclass":"All",
+      "class":"Residential",
+      "title": "Desert Dunes",
+      "description": "Endless sand dunes in the middle of the desert.",
+      "image": "https://via.placeholder.com/300x200?text=Desert+Dunes"
+    },
+    {
+      "id": 8,
+      "allclass":"All",
+      "class":"Residential",
+      "title": "Desert Dunes",
+      "description": "Endless sand dunes in the middle of the desert.",
+      "image": "https://via.placeholder.com/300x200?text=Desert+Dunes"
+    },
+    {
+      "id": 9,
+      "allclass":"All",
+      "class":"Styling",
+      "title": "Desert Dunes",
+      "description": "Endless sand dunes in the middle of the desert.",
+      "image": "https://via.placeholder.com/300x200?text=Desert+Dunes"
+    },
+    {
+      "id": 10,
+      "allclass":"All",
+      "class":"Styling",
+      "title": "Desert Dunes",
+      "description": "Endless sand dunes in the middle of the desert.",
+      "image": "https://via.placeholder.com/300x200?text=Desert+Dunes"
+    }
+  ]
+  
