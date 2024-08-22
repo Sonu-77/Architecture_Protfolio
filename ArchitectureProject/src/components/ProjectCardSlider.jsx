@@ -28,8 +28,8 @@ function ProjectCardSlider({card}) {
       }
       
       const settings = {
-        dots: true,
-        infinite: true,
+        dots: false,
+        infinite: false,
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -39,12 +39,35 @@ function ProjectCardSlider({card}) {
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
         // fade: true,
+        responsive: [
+          {
+              breakpoint: 1024, // 1024px and below
+              settings: {
+                  slidesToShow: 4,
+                  slidesToScroll: 1,
+              }
+          },
+          {
+              breakpoint: 768, // 768px and below
+              settings: {
+                  slidesToShow: 1, // Show 2 slides on medium screens
+                  slidesToScroll: 1,
+              }
+          },
+          {
+              breakpoint: 300, // 480px and below
+              settings: {
+                  slidesToShow: 1, // Show 1 slide on small screens
+                  slidesToScroll: 1,
+              }
+          }
+      ]
     
     
       };
 
   return (
-    <div className='lg:w-[61vw]'>
+    <div className='lg:w-[61vw] sm:w-[90vw]'>
         <Slider {...settings}>
           {card.map((item)=>{
             return(

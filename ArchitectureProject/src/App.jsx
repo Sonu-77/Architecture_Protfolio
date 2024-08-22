@@ -7,7 +7,8 @@ import About from './components/About'
 import AboutImageSection from './components/AboutImageSection'
 import AboutSpace from './components/AboutSpace'
 import Project from './components/Project'
-import ProjectCardSlider from './components/ProjectCardSlider'
+import Testimony from './components/Testimony'
+import TestimonyCard from './components/TestimonyCard'
 
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
         <AboutImageSection/>
       </AboutSpace>
       <Project></Project>
+      <Testimony></Testimony>
+      
+
 
       
     </>

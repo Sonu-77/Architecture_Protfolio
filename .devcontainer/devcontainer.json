@@ -11,7 +11,8 @@
 				"SouravSharma.ice-tea",
 				"esbenp.prettier-vscode",
 				"bradlc.vscode-tailwindcss",
-				"ecmel.vscode-html-css"
+				"ecmel.vscode-html-css",
+				"rvest.vs-code-prettier-eslint"
 			]
 		}
 	}
