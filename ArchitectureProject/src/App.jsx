@@ -9,6 +9,7 @@ import AboutSpace from './components/AboutSpace'
 import Project from './components/Project'
 import Testimony from './components/Testimony'
 import WhyChoose from './components/WhyChoose'
+import Contact from './components/Contact'
 
 
 function App() {
@@ -30,7 +31,7 @@ function App() {
       <Project></Project>
       <Testimony></Testimony>
       <WhyChoose></WhyChoose>
-
+      <Contact></Contact>
 
     </>
   )

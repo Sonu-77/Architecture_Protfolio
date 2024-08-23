@@ -43,7 +43,7 @@ function ProjectCardSlider({card}) {
           {
               breakpoint: 1024, // 1024px and below
               settings: {
-                  slidesToShow: 4,
+                  slidesToShow: 1,
                   slidesToScroll: 1,
               }
           },
