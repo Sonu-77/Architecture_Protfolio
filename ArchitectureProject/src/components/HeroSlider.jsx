@@ -42,7 +42,7 @@ function HeroSlider() {
 
   };
   return (
-    <div className="lg:w-[40vw] sm:w-[80vw]">
+    <div className="lg:w-[40vw] sm:w-[80vw] sm:pl-[2vw]">
 
     <Slider {...settings}>
       <div className="sm:ml-[4vw] sm:h-[40vw] lg:h-[14vw]">

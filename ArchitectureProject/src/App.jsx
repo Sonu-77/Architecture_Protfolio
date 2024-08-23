@@ -8,7 +8,7 @@ import AboutImageSection from './components/AboutImageSection'
 import AboutSpace from './components/AboutSpace'
 import Project from './components/Project'
 import Testimony from './components/Testimony'
-import TestimonyCard from './components/TestimonyCard'
+import WhyChoose from './components/WhyChoose'
 
 
 function App() {
@@ -29,10 +29,9 @@ function App() {
       </AboutSpace>
       <Project></Project>
       <Testimony></Testimony>
-      
+      <WhyChoose></WhyChoose>
 
 
-      
     </>
   )
 }
