@@ -11,6 +11,7 @@ import Testimony from './components/Testimony'
 import WhyChoose from './components/WhyChoose'
 import Contact from './components/Contact'
 import Map from './components/Map'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
         <Contact></Contact>
         <Map></Map>
       </AboutSpace>
+      <Footer></Footer>
 
     </>
   )

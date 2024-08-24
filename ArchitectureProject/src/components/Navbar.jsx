@@ -9,7 +9,8 @@ function Navbar() {
     <div className='w-full flex lg:justify-around lg:items-center  lg:gap-[15vw] sm:p-[4vw] lg:p-[1vw] sm:justify-between  '>
       <div className=' '>
 
-      <img className='sm:ml-[2vw] lg:ml-[0] lg:w-[8vw] sm:w-[25vw] object-cover' src="https://www.free-css.com/assets/files/free-css-templates/preview/page293/fonicy/assets/images/logo.png" alt="" />
+      <img className='sm:ml-[2vw] lg:ml-[0] lg:w-[5vw] lg:h-[5vw] sm:w-[15vw] object-cover' src="https://dynamic.design.com/asset/logo/27a519cc-7eca-4468-b214-4176a1dcaadd/logo-search-grid-2x?logoTemplateVersion=1&v=638596351448370000&text=Architecture" alt="" />
+      {/* <img className='sm:ml-[2vw] lg:ml-[0] lg:w-[8vw] sm:w-[25vw] object-cover' src="https://www.free-css.com/assets/files/free-css-templates/preview/page293/fonicy/assets/images/logo.png" alt="" /> */}
       </div>
       <div className='flex justify-between items-center lg:gap-[3vw] lg:first-line:text-[1.2vw] sm:hidden lg:flex'>
         <h2>Home</h2>

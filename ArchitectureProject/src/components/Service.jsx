@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function Service({children}) {
   return (
     <div className='lg:w-[96vw] sm:w-[92vw] sm:h-[100vw] lg:h-[34vw] sm:ml-[4vw] sm:mr-[4vw] sm:mt-[8vw]  lg:mt-[5%] lg:ml-[2%] lg:mb-[2%] sm:flex sm:justify-center lg:flex lg:justify-center lg:items-center shadow-slate-500 sm:shadow-2xl lg:shadow-2xl '>
