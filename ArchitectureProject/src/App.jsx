@@ -10,6 +10,7 @@ import Project from './components/Project'
 import Testimony from './components/Testimony'
 import WhyChoose from './components/WhyChoose'
 import Contact from './components/Contact'
+import Map from './components/Map'
 
 
 function App() {
@@ -24,14 +25,18 @@ function App() {
       <Service>
         <ServiceSliders/>
       </Service>
-      <AboutSpace>
+      <AboutSpace smHeight={"130vw"} lgHeight={"30vw"}>
         <About/>
         <AboutImageSection/>
       </AboutSpace>
       <Project></Project>
       <Testimony></Testimony>
       <WhyChoose></WhyChoose>
-      <Contact></Contact>
+      <AboutSpace smHeight={"230vw"} lgHeight={"35vw"}>
+
+        <Contact></Contact>
+        <Map></Map>
+      </AboutSpace>
 
     </>
   )
