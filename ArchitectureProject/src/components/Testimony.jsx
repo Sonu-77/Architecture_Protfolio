@@ -1,5 +1,4 @@
 
-import TestimonyCard from "./TestimonyCard"
 import TestimonySlider from "./TestimonySlider"
 function Testimony() {
   return (
@@ -9,7 +8,7 @@ function Testimony() {
       </div>
       <div className='sm:w-[100%] sm:h-[90vw] lg:w-full lg:h-[25vw]  sm:flex sm:justify-center sm:items-center '>
         
-        {/* <TestimonyCard></TestimonyCard> */}
+
         <TestimonySlider></TestimonySlider>
         
         

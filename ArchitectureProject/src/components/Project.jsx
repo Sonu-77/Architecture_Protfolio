@@ -1,5 +1,5 @@
 import  { useState } from 'react'
-import carddata from '/src/jsonfiles/carddata.json'
+import carddata from '../jsonfiles/carddata.json'
 import ProjectCardSlider from './ProjectCardSlider'
 
 

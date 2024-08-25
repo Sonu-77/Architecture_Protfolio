@@ -1,5 +1,5 @@
 import React from 'react'
-import '../components/Contact.css'
+import './Contact.css'
 import  { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
