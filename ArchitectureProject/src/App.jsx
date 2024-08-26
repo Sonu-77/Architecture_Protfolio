@@ -1,3 +1,4 @@
+import { Route,Routes } from 'react-router-dom'
 import Herobanner from './components/Herobanner'
 import Navbar from './components/Navbar'
 import HeroSlider from './components/HeroSlider'
@@ -14,33 +15,89 @@ import Map from './components/Map'
 import Footer from './components/Footer'
 
 
+
 function App() {
 
 
   return (
     <>
       <Navbar/>
-      <Herobanner>
-        <HeroSlider/>
-      </Herobanner>
-      <Service>
-        <ServiceSliders/>
-      </Service>
-      <AboutSpace smHeight={"130vw"} lgHeight={"30vw"}>
-        <About/>
-        <AboutImageSection/>
-      </AboutSpace>
-      <Project></Project>
-      <Testimony></Testimony>
-      <WhyChoose></WhyChoose>
-      <AboutSpace smHeight={"230vw"} lgHeight={"35vw"}>
+      <Routes>
+        <Route path='/'element={
+          <>
+            
+            <Herobanner>
+              <HeroSlider/>
+            </Herobanner>
+            <Service>
+              <ServiceSliders/>
+            </Service>
+            <AboutSpace smHeight={"130vw"} lgHeight={"30vw"}>
+              <About/>
+              <AboutImageSection/>
+            </AboutSpace>
+            <Project></Project>
+            <Testimony></Testimony>
+            <WhyChoose></WhyChoose>
+            <AboutSpace smHeight={"230vw"} lgHeight={"35vw"}>
 
-        <Contact></Contact>
-        <Map></Map>
-      </AboutSpace>
+              <Contact></Contact>
+              <Map></Map>
+            </AboutSpace>
+          </>
+        } />
+        <Route path='service'element={
+          <Service>
+            <ServiceSliders/>
+          </Service>
+        } />
+        
+        <Route path='about' element={
+          <AboutSpace smHeight={"130vw"} lgHeight={"30vw"}>
+            <About/>
+            <AboutImageSection/>
+          </AboutSpace>
+        }/>
+        
+        <Route path='project' element={
+          <Project/>
+        }/>
+        
+        <Route path='testimonial' element={<Testimony/>}/>
+        <Route path='contact' element={
+          <AboutSpace smHeight={"230vw"} lgHeight={"35vw"}>
+
+            <Contact></Contact>
+            <Map></Map>
+          </AboutSpace>
+        }/>
+
+
+          {/* <Navbar/>
+          <Herobanner>
+            <HeroSlider/>
+          </Herobanner>
+          <Service>
+            <ServiceSliders/>
+          </Service>
+          <AboutSpace smHeight={"130vw"} lgHeight={"30vw"}>
+            <About/>
+            <AboutImageSection/>
+          </AboutSpace>
+          <Project></Project>
+          <Testimony></Testimony>
+          <WhyChoose></WhyChoose>
+          <AboutSpace smHeight={"230vw"} lgHeight={"35vw"}>
+
+            <Contact></Contact>
+            <Map></Map>
+          </AboutSpace>
+          <Footer></Footer> */}
+      </Routes>
       <Footer></Footer>
-
     </>
+
+    
   )
 }
 
