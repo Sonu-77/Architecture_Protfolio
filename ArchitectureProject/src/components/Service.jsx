@@ -8,7 +8,7 @@ function Service({children}) {
 
             <h2 className=' lg:mt-[1%] sm:mt-[5vw] sm:text-[5vw] lg:text-[2vw] font-bold'>Services</h2>
             <p className='lg:mt-[0.4vw] sm:mt-[1.6vw] sm:text-[3.2vw] lg:text-[1vw]'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
-            <div className='lg:w-[100%] sm:w-[100%] sm:h-[78%] lg:h-[78%] lg:flex lg:justify-center lg:pl-[7vw] sm:pl-[4vw] lg:items-center'>
+            <div className='lg:w-[100%] sm:w-[100%] sm:h-[78%] lg:h-[78%] lg:flex lg:justify-center lg:pl-[7vw] sm:pl-[4vw]  lg:items-center'>
                 {children}
             </div>
         </div>
