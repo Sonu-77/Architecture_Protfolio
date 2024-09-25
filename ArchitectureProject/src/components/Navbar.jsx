@@ -1,6 +1,5 @@
-import React, { useState } from 'react'
-import { Link,NavLink } from 'react-router-dom';
-import { FaSearch } from "react-icons/fa";
+import  { useState } from 'react'
+import { NavLink } from 'react-router-dom';
 import { IoMdMenu } from "react-icons/io";
 import { RxCross1 } from "react-icons/rx";
 
@@ -51,7 +50,6 @@ function Navbar() {
       <div className=' '>
 
       <img className='sm:ml-[2vw] bg-[#f07b27] sm:p-[1vw] rounded-full lg:p-[0.4vw] lg:ml-[0] lg:w-[4vw] lg:h-[4vw] sm:w-[12vw] object-cover' src="./src/assets/logo.webp" alt="" />
-      {/* <img className='sm:ml-[2vw] lg:ml-[0] lg:w-[8vw] sm:w-[25vw] object-cover' src="https://www.free-css.com/assets/files/free-css-templates/preview/page293/fonicy/assets/images/logo.png" alt="" /> */}
       </div>
       <div className='flex justify-between items-center lg:gap-[3vw] lg:text-[1vw] uppercase sm:hidden  lg:flex'>
         <NavLink style={activateBg} to={"/"}><h2>Home</h2></NavLink>
@@ -60,8 +58,7 @@ function Navbar() {
         <NavLink style={activateBg} to={"project"}><h2>Project</h2></NavLink>
         <NavLink style={activateBg} to={"testimonial"}><h2>Testimonial</h2></NavLink>
         <NavLink style={activateBg} to={"contact"}><h2>Contact Us</h2></NavLink>
-        <NavLink style={activateBg} to={"login"}><h2>Login</h2></NavLink>
-        {/* <FaSearch /> */}
+        {/* <NavLink style={activateBg} to={"login"}><h2>Login</h2></NavLink> */}
       </div>
       <div className=' lg:flex'> 
         <IoMdMenu onClick={toogleMenu} className={`lg:hidden sm:text-[8vw] sm:mr-[2vw] sm:${menuIcon}  text-[#000000] lg:mr-[0]`} />
@@ -76,14 +73,7 @@ function Navbar() {
               <NavLink style={activateBg} to={"testimonial"}><h2>Testimonial</h2></NavLink>
               <NavLink style={activateBg} to={"contact"}><h2>Contact Us</h2></NavLink>
               <NavLink style={activateBg} to={"login"}><h2>Login</h2></NavLink>
-              {/* <Link to={"/"}><h2>Home</h2></Link>
-              <Link to={"service"}><h2>Services</h2></Link>
-              <Link to={"about"}><h2>About</h2></Link>
-              <Link to={"project"}><h2>Project</h2></Link>
-              <Link to={"testimonial"}><h2>Testimonial</h2></Link>
-              <Link to={"contact"}><h2>Contact Us</h2></Link>
-              <Link to={"login"}><h2>Login</h2></Link> */}
-              {/* <FaSearch /> */}
+              
             </div>
           )
         }
