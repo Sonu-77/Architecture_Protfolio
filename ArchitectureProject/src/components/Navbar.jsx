@@ -35,7 +35,7 @@ function Navbar() {
       <div className=" ">
         <img
           className="sm:ml-[2vw] bg-[#f07b27] sm:p-[1vw] rounded-full lg:p-[0.4vw] lg:ml-[0] lg:w-[4vw] lg:h-[4vw] sm:w-[12vw] object-cover"
-          src="./src/assets/logo.jpg"
+          src="https://dynamic.design.com/asset/logo/3c034eb4-cfd1-40e1-96d8-1248f11848fc/logo-search-grid-2x?logoTemplateVersion=3&v=638332010432100000&text=architecture&colorpalette=orange"
           alt="pic"
         />
       </div>
