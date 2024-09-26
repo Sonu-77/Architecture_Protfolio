@@ -30,7 +30,7 @@ function Contact() {
       );
   };
   return (
-    <div className='sm:w-full  lg:w-[50vw] lg:h-[30vw] sm:h-[105vw] lg:pl-[12vw] '>
+    <div className='sm:w-full  lg:w-[50vw] lg:h-[30vw] sm:h-[105vw] lg:pl-[12vw] lg:mt-[6vw] sm:mt-[20vw]  '>
         <div className='sm:pl-[8vw] lg:pl-[6vw] sm:mb-[5vw] lg:mb-[2vw]'>
             <h3 className='sm:text-[6vw] lg:text-[2vw] font-bold uppercase'>Contact Us</h3>
         </div>

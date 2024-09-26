@@ -31,7 +31,7 @@ function Navbar() {
   };
 
   return (
-    <div className="w-full flex lg:justify-around lg:items-center  lg:gap-[15vw] sm:p-[3vw] lg:p-[0.5vw] sm:justify-between sm:items-center  relative ">
+    <div className="fixed top-0 z-50 w-full flex lg:justify-around lg:items-center bg-white  lg:gap-[15vw] sm:p-[3vw] lg:p-[0.5vw] sm:justify-between sm:items-center ">
       <div className=" ">
         <img
           className="sm:ml-[2vw] bg-[#f07b27] sm:p-[1vw] rounded-full lg:p-[0.4vw] lg:ml-[0] lg:w-[4vw] lg:h-[4vw] sm:w-[12vw] object-cover"
@@ -75,26 +75,26 @@ function Navbar() {
             className="absolute sm:right-[0.5vw] sm:top-[18vw]  sm:w-[99vw] text-[#fb8500] z-10 sm:h-[130vw] gap-[5vw] uppercase text-[5vw] flex flex-col justify-center items-center bg-[#023047] rounded-md  "
           >
             <NavLink style={activateBg} to={"/"}>
-              <h2>Home</h2>
+              <h2 className="sm:p-[1vw]">Home</h2>
             </NavLink>
             <NavLink style={activateBg} to={"service"}>
-              <h2>Services</h2>
+              <h2 className="sm:p-[1vw]">Services</h2>
             </NavLink>
             <NavLink style={activateBg} to={"about"}>
-              <h2>About</h2>
+              <h2 className="sm:p-[1vw]">About</h2>
             </NavLink>
             <NavLink style={activateBg} to={"project"}>
-              <h2>Project</h2>
+              <h2 className="sm:p-[1vw]">Project</h2>
             </NavLink>
             <NavLink style={activateBg} to={"testimonial"}>
-              <h2>Testimonial</h2>
+              <h2 className="sm:p-[1vw]">Testimonial</h2>
             </NavLink>
             <NavLink style={activateBg} to={"contact"}>
-              <h2>Contact Us</h2>
+              <h2 className="sm:p-[1vw]">Contact Us</h2>
             </NavLink>
-            <NavLink style={activateBg} to={"login"}>
+            {/* <NavLink style={activateBg} to={"login"}>
               <h2>Login</h2>
-            </NavLink>
+            </NavLink> */}
           </div>
         )}
         <button className="lg:w-[8vw] bg-[#f07b27] text-[#ffff] lg:p-[0.5vw] rounded lg:text-[1vw] sm:hidden lg:flex justify-center items-center">

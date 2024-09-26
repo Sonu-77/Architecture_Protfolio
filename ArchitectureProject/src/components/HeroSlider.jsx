@@ -49,7 +49,7 @@ function HeroSlider() {
     <Slider {...settings}>
       <div className="sm:ml-[4vw] sm:h-[40vw] lg:h-[14vw]">
         <div>
-          <h2 className="lg:text-[2.3vw] text-[#ffff] sm:text-[5.5vw] font-bold lg:leading-[3vw] sm:leading-[7vw]">
+          <h2 className="lg:text-[2.3vw] text-[#FFEF91] sm:text-[5.5vw] font-bold lg:leading-[3vw] sm:leading-[7vw]">
             ARCHITECT <br />
             BUILDER CONSTRUCTION <br />
             SERVICES
@@ -66,7 +66,7 @@ function HeroSlider() {
       </div>
       <div className="sm:ml-[4vw] sm:h-[40vw] lg:h-0">
         <div>
-          <h2 className="lg:text-[2.3vw] text-[#ffff] sm:text-[5.5vw] font-bold lg:leading-[3vw] sm:leading-[7vw]">
+          <h2 className="lg:text-[2.3vw] text-[#FFEF91] sm:text-[5.5vw] font-bold lg:leading-[3vw] sm:leading-[7vw]">
             ARCHITECT <br />
             BUILDER CONSTRUCTION <br />
             SERVICES
@@ -83,7 +83,7 @@ function HeroSlider() {
       </div>
       <div className="sm:ml-[4vw] sm:h-[40vw] lg:h-0">
         <div>
-          <h2 className="lg:text-[2.3vw] text-[#ffff] sm:text-[5.5vw] font-bold lg:leading-[3vw] sm:leading-[7vw]">
+          <h2 className="lg:text-[2.3vw] text-[#FFEF91] sm:text-[5.5vw] font-bold lg:leading-[3vw] sm:leading-[7vw]">
             ARCHITECT <br />
             BUILDER CONSTRUCTION <br />
             SERVICES
@@ -100,7 +100,7 @@ function HeroSlider() {
       </div>
       <div className="sm:ml-[4vw] sm:h-[40vw] lg:h-0">
         <div>
-          <h2 className="lg:text-[2.3vw] text-[#ffff] sm:text-[5.5vw] font-bold lg:leading-[3vw] sm:leading-[7vw]">
+          <h2 className="lg:text-[2.3vw] text-[#FFEF91] sm:text-[5.5vw] font-bold lg:leading-[3vw] sm:leading-[7vw]">
             ARCHITECT <br />
             BUILDER CONSTRUCTION <br />
             SERVICES

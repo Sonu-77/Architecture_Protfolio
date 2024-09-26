@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='lg:w-[40vw] lg:pr-[1vw] sm:w-[92vw] lg:p-0 sm:p-[2vw] lg:mt-0 sm:ml-[2vw] sm:mt-[10vw] '>
+    <div className='lg:w-[40vw] lg:pr-[1vw] sm:w-[92vw] lg:mt-[6vw] sm:mt-[25vw] lg:p-0 sm:p-[2vw] sm:ml-[2vw] '>
         <h2 className='lg:text-[2vw] sm:text-[5vw] font-bold'>About Us</h2>
         <p className='lg:text-[1vw] sm:text-[3vw] lg:mt-[0.4vw] sm:mt-[2.5vw] font-normal'>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis itaque inventore cupiditate fugiat esse. Facilis assumenda magnam, at exercitationem esse non animi expedita ipsa velit nisi aspernatur dolorum praesentium nobis!Lorem Omnis itaque inventore cupiditate fugiat esse. Facilis assumenda magnam,Omnis itaque inventore cupiditate fugiat esse. Facilis assumenda magnam.

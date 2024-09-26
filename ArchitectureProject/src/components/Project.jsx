@@ -18,7 +18,7 @@ function Project() {
  
 
   return (
-    <div className='lg:w-full sm:w-full sm:h-[170vw] lg:bg-[#ffff]  lg:h-[48vw] sm:flex sm:flex-col  lg:flex lg:flex-col '>
+    <div className='lg:w-full sm:w-full sm:h-[170vw] lg:bg-[#ffff] lg:mt-[6vw] sm:mt-[16vw]  lg:h-[48vw] sm:flex sm:flex-col  lg:flex lg:flex-col '>
       <div className='lg:ml-[15vw] sm:ml-[5vw] sm:pl-[1vw]'>
 
         <div className='lg:w-[13vw] sm:w-[35vw]  sm:pb-[7vw] lg:pt-[2vw] lg:pb-[2vw] '>
@@ -38,7 +38,7 @@ function Project() {
             }
           </div>
         </div>
-          <div className=' sm:w-[90vw] sm:pl-[3vw] sm:pr-[4vw] lg:pr-0 lg:pl-0 lg:w-[70vw] sm:h-110vw] sm:mt-[4vw] lg:h-[35vw]  lg:flex      
+          <div className=' sm:w-[90vw] sm:pl-[3vw] sm:pr-[4vw] lg:pr-0 lg:pl-0 lg:w-[70vw] sm:h-[110vw] sm:mt-[4vw] lg:h-[35vw]  lg:flex      
            lg:flex-row sm:flex sm:flex-col sm:justify-center lg:justify-center  lg:items-center lg:mt-[1vw] '>
             <ProjectCardSlider card={filteredCards} />
               
